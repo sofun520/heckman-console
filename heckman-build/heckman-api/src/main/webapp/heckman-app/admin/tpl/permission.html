@@ -1,0 +1,93 @@
+<div class="wrapper-md ng-scope" style="font-size: 12px;" ng-controller="permissionCtrl" ng-init="init()">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">系统权限菜单列表</div>
+                <table class="table table-striped m-b-none table-bordered">
+                    <thead>
+                    <tr>
+                        <th class="text-center">一级菜单</th>
+                        <th class="text-center">二级菜单</th>
+                        <th class="text-center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="permissionList">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-5" ng-if="permissions['app.permission.editAddForm']" >
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    权限菜单新增
+                </div>
+                <div class="wrapper">
+                    <form class="form-horizontal ng-pristine ng-valid" action="#" method="post" id="myForm">
+                        <div class="box-body">
+                            <div class="form-group" style="padding-right: 10px;">
+                                <label for="search_aName" class="col-sm-3 control-label">权限ID</label>
+                                <div class="col-sm-9">
+                                    <input type="hidden" ng-model="per.pId"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                    <input type="hidden" ng-model="per.pParent"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                    <input type="text" readonly="readonly" class="form-control input-sm"
+                                           ng-model="per.pId">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 10px;">
+                                <label for="search_aName" class="col-sm-3 control-label">权限token</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="per.pToken"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 10px;">
+                                <label for="search_aName" class="col-sm-3 control-label">描述</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="per.pDescription"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 10px;">
+                                <label for="search_aName" class="col-sm-3 control-label">菜单URL</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="per.pUrl"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 10px;">
+                                <label for="search_aName" class="col-sm-3 control-label">权限类型</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control input-sm ng-pristine ng-valid ng-touched"
+                                            ng-model="per.pType">
+                                        <option value="">==请选择==</option>
+                                        <option value="1">菜单</option>
+                                        <option value="2">操作</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 10px;">
+                                <div class="col-sm-12" style="text-align: center;">
+                                    <button type="button" class="btn btn-info btn-sm" ng-if="permissions['app.permission.addChildLevel']" ng-click="addSubLevel()">新增子级
+                                    </button>
+                                    <button type="button" class="btn btn-info btn-sm" ng-if="permissions['app.permission.del']" ng-click="deleteLevel()">删除
+                                    </button>
+                                    <button type="button" class="btn btn-info btn-sm" ng-if="permissions['app.permission.save']" ng-click="submit()">保存</button>
+                                    <button type="button" class="btn btn-info btn-sm" ng-if="permissions['app.permission.addFatherLevel']" ng-click="resetOpt()">新增一级</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.box-footer -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

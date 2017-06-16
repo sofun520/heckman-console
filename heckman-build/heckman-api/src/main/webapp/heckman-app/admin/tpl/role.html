@@ -1,0 +1,124 @@
+<div class="wrapper-md ng-scope" style="font-size: 12px;" ng-controller="roleCtrl" ng-init="init()">
+
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-sm-4">角色信息</div>
+                        <div class="col-sm-4">
+                            <input type="text"
+                                   class="form-control input-sm ng-touched ng-dirty ng-valid-parse ng-invalid ng-invalid-required"
+                                   ng-model="param.rName" placeholder="角色代码" required="">
+                        </div>
+                        <div class="col-sm-4">
+                            <button class="btn btn-sm btn-default" type="button" ng-click="loadRoleList()">查询</button>
+                            <button class="btn btn-sm btn-default" type="button" ng-click="param={}">清空</button>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-striped m-b-none table-bordered">
+                    <thead>
+                    <tr>
+                        <th class="text-center" style="width: 20px;">#</th>
+                        <th>角色名称</th>
+                        <th>角色代码</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-if="dataShow" ng-repeat="x in roleList track by $index">
+                        <td>{{$index+1}}</td>
+                        <td>{{x.rDescription}}</td>
+                        <td>{{x.rName}}</td>
+                        <!-- <td>{{x.rStatus}}</td> -->
+                        <!-- <td>{{x.rAddTime | date:'yyyy-MM-dd'}}</td> -->
+                        <td align="center"><a href="javascript:void(0)"
+                                              ng-click="delRole(x.rId)" ng-if="permissions['app.role.del']">删除</a><br><a
+                                href="javascript:void(0)" ng-click="editRole(x.rId)" ng-if="permissions['app.role.edit']">修改</a><br>
+                            &nbsp;&nbsp;<a href="javascript:void(0)" ng-click="assignMenu(x.rId)" ng-if="permissions['app.role.assign']">分配权限菜单</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <footer class="panel-footer">
+                    <div class=" text-right text-center-xs">
+                        <ul class="pagination pagination-sm m-t-none m-b-none" id="pageHtml">
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="panel panel-default" ng-if="assignMenuShow">
+                <div class="panel-heading">
+                    角色权限菜单分配
+                </div>
+                <div class="">
+                    <table class="table table-striped m-b-none table-bordered">
+                        <thead>
+                        <tr>
+                            <td class="text-center">一级菜单</td>
+                            <td class="text-center">二级菜单</td>
+                            <td class="text-center">操作</td>
+                        </tr>
+                        </thead>
+                        <tbody id="permissionList">
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="panel panel-default" ng-if="roleInfoShow">
+                <div class="panel-heading">
+                    {{addOrEdit?'新增角色':'修改角色'}}
+                </div>
+                <div class="wrapper">
+                    <form class="form-horizontal ng-pristine ng-invalid ng-invalid-required" id="myForm" method="post">
+                        <div class="box-body">
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">角色ID</label>
+                                <div class="col-sm-9">
+                                    <input type="hidden" ng-model="roleInfo.rId"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                    <input type="text" readonly="readonly" ng-model="roleInfo.rId"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">角色名称</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="roleInfo.rDescription" required=""
+                                           class="form-control input-sm ng-pristine ng-untouched ng-invalid ng-invalid-required"
+                                           id="search_aName" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">角色代码</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="roleInfo.rName" required=""
+                                           class="form-control input-sm ng-pristine ng-untouched ng-invalid ng-invalid-required"
+                                           id="search_aName" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label"></label>
+                                <div class="col-sm-9">
+                                    <button type="button" ng-click="submit()" class="btn btn-info btn-sm" ng-if="permissions['app.role.save']">保存</button>
+                                    <button type="button" ng-click="addRole()" class="btn btn-info btn-sm" ng-if="permissions['app.role.add']">新增角色</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-footer -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

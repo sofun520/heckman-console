@@ -1,0 +1,52 @@
+<div class="wrapper-md ng-scope" style="font-size: 12px;" ng-controller="operateLogCtrl" ng-init="init()">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-sm-2">
+                    <button class="btn btn-sm btn-default btn-info" type="button" ng-click="addLabel()">新增模板</button>
+                    <button class="btn btn-sm btn-default" type="button" ng-click="exportFile()">导出模板</button>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">
+
+                </div>
+                <div class="col-sm-2">
+                    <input type="text"
+                           class="form-control input-sm ng-touched ng-dirty ng-valid-parse ng-invalid ng-invalid-required"
+                           ng-model="param.oBusCode" placeholder="模块code" required="">
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-sm btn-default" type="button" ng-click="searchList()">查询</button>
+                    <button class="btn btn-sm btn-default" type="button" ng-click="param={}">清空</button>
+                </div>
+            </div>
+        </div>
+        <table class="table table-bordered table-striped">
+            <tbody>
+            <tr>
+                <th style="width: 10px">#</th>
+                <th>模块code</th>
+                <th>操作描述</th>
+                <th>操作时间</th>
+                <th>操作人</th>
+            </tr>
+            <tr ng-if="noDataShow">
+                <td colspan="5" align="center">没有数据</td>
+            </tr>
+            <tr ng-if="dataShow" ng-repeat="x in olList track by $index">
+                <td>{{$index+1}}</td>
+                <td>{{x.oBusCode}}</td>
+                <td>{{x.oBusDescription}}</td>
+                <td>{{x.oAddTime | date:'yyyy-MM-dd'}}</td>
+                <td>{{x.oUserName}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <footer class="panel-footer">
+            <div class=" text-right text-center-xs">
+                <ul class="pagination pagination-sm m-t-none m-b-none" id="pageHtml">
+                </ul>
+            </div>
+        </footer>
+    </div>
+</div>

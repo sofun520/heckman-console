@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.heckman.module.dao.TSmsTempMapper">
+	<resultMap id="BaseResultMap" type="cn.heckman.module.pojo.TSmsTemp">
+		<id column="t_id" property="tId" jdbcType="INTEGER" />
+		<result column="t_name" property="tName" jdbcType="VARCHAR" />
+		<result column="t_temp_id" property="tTempId" jdbcType="VARCHAR" />
+		<result column="t_description" property="tDescription"
+			jdbcType="VARCHAR" />
+		<result column="t_content" property="tContent" jdbcType="VARCHAR" />
+		<result column="t_add_time" property="tAddTime" jdbcType="TIMESTAMP" />
+		<result column="t_add_user" property="tAddUser" jdbcType="INTEGER" />
+		<result column="t_update_time" property="tUpdateTime" jdbcType="TIMESTAMP" />
+		<result column="t_update_user" property="tUpdateUser" jdbcType="INTEGER" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+		t_id, t_name, t_temp_id, t_description, t_content,
+		t_add_time, t_add_user,
+		t_update_time,
+		t_update_user
+	</sql>
+
+	<select id="find" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from t_sms_temp
+		where t_id = #{tId,jdbcType=INTEGER}
+	</select>
+
+	<sql id="queryCommon">
+		select
+		<include refid="Base_Column_List" />
+		from t_sms_temp
+		where 1=1
+		<if test="smsTemp.tName != null and smsTemp.tName != ''">
+			and t_name = #{smsTemp.tName}
+		</if>
+		<if test="smsTemp.tTempId != null and smsTemp.tTempId != ''">
+			and t_temp_id = #{smsTemp.tTempId}
+		</if>
+	</sql>
+
+	<select id="query" resultMap="BaseResultMap" parameterType="java.util.Map">
+		<include refid="queryCommon" />
+		<if test="pageBean.pageSize != null and pageBean.pageSize != 0">
+			limit #{pageBean.startIndex},#{pageBean.pageSize}
+		</if>
+	</select>
+
+	<select id="count" parameterType="java.util.Map" resultType="java.lang.Integer">
+		select count(*) from (
+		<include refid="queryCommon" />
+		) as a
+	</select>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from t_sms_temp
+		where
+		t_id = #{tId,jdbcType=INTEGER}
+	</delete>
+
+
+
+	<insert id="insert" parameterType="cn.heckman.module.pojo.TSmsTemp">
+		insert into t_sms_temp
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="tId != null">
+				t_id,
+			</if>
+			<if test="tName != null">
+				t_name,
+			</if>
+			<if test="tTempId != null">
+				t_temp_id,
+			</if>
+			<if test="tDescription != null">
+				t_description,
+			</if>
+			<if test="tContent != null">
+				t_content,
+			</if>
+			<if test="tAddTime != null">
+				t_add_time,
+			</if>
+			<if test="tAddUser != null">
+				t_add_user,
+			</if>
+			<if test="tUpdateTime != null">
+				t_update_time,
+			</if>
+			<if test="tUpdateUser != null">
+				t_update_user,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="tId != null">
+				#{tId,jdbcType=INTEGER},
+			</if>
+			<if test="tName != null">
+				#{tName,jdbcType=VARCHAR},
+			</if>
+			<if test="tTempId != null">
+				#{tTempId,jdbcType=VARCHAR},
+			</if>
+			<if test="tDescription != null">
+				#{tDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="tContent != null">
+				#{tContent,jdbcType=VARCHAR},
+			</if>
+			<if test="tAddTime != null">
+				#{tAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="tAddUser != null">
+				#{tAddUser,jdbcType=INTEGER},
+			</if>
+			<if test="tUpdateTime != null">
+				#{tUpdateTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="tUpdateUser != null">
+				#{tUpdateUser,jdbcType=INTEGER},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update" parameterType="cn.heckman.module.pojo.TSmsTemp">
+		update t_sms_temp
+		<set>
+			<if test="tName != null">
+				t_name = #{tName,jdbcType=VARCHAR},
+			</if>
+			<if test="tTempId != null">
+				t_temp_id = #{tTempId,jdbcType=VARCHAR},
+			</if>
+			<if test="tDescription != null">
+				t_description = #{tDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="tContent != null">
+				t_content = #{tContent,jdbcType=VARCHAR},
+			</if>
+			<if test="tAddTime != null">
+				t_add_time = #{tAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="tAddUser != null">
+				t_add_user = #{tAddUser,jdbcType=INTEGER},
+			</if>
+			<if test="tUpdateTime != null">
+				t_update_time = #{tUpdateTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="tUpdateUser != null">
+				t_update_user = #{tUpdateUser,jdbcType=INTEGER},
+			</if>
+		</set>
+		where t_id = #{tId,jdbcType=INTEGER}
+	</update>
+
+</mapper>

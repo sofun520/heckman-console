@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.heckman.module.dao.TRoleMapper">
+	<resultMap id="BaseResultMap" type="cn.heckman.module.pojo.TRole">
+		<id column="r_id" property="rId" jdbcType="INTEGER" />
+		<result column="r_name" property="rName" jdbcType="VARCHAR" />
+		<result column="r_description" property="rDescription"
+			jdbcType="VARCHAR" />
+		<result column="r_add_time" property="rAddTime" jdbcType="TIMESTAMP" />
+		<result column="r_status" property="rStatus" jdbcType="CHAR" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+		r_id, r_name, r_description, r_add_time, r_status
+	</sql>
+
+	<select id="find" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from t_role
+		where r_id = #{rId,jdbcType=INTEGER}
+	</select>
+
+	<sql id="queryCommon">
+		select
+		<include refid="Base_Column_List" />
+		from t_role
+		where 1=1
+		<if test="role.rDescription != null and role.rDescription != ''">
+			and r_description like '%${role.rDescription}%'
+		</if>
+		<if test="role.rName != null and role.rName != ''">
+			and r_name = #{role.rName}
+		</if>
+	</sql>
+
+	<select id="query" resultMap="BaseResultMap" parameterType="java.util.Map">
+		<include refid="queryCommon" />
+		<if test="pageBean != null">
+			<if test="pageBean.pageSize != null and pageBean.pageSize !=0">
+				limit #{pageBean.startIndex},#{pageBean.pageSize}
+			</if>
+		</if>
+	</select>
+
+	<select id="count" parameterType="java.util.Map" resultType="java.lang.Integer">
+		select count(*)
+		from
+		(
+		<include refid="queryCommon" />
+		) as a
+	</select>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from t_role
+		where r_id =
+		#{rId,jdbcType=INTEGER}
+	</delete>
+
+
+	<insert id="insert" parameterType="cn.heckman.module.pojo.TRole">
+		insert into t_role
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="rId != null">
+				r_id,
+			</if>
+			<if test="rName != null">
+				r_name,
+			</if>
+			<if test="rDescription != null">
+				r_description,
+			</if>
+			<if test="rAddTime != null">
+				r_add_time,
+			</if>
+			<if test="rStatus != null">
+				r_status,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="rId != null">
+				#{rId,jdbcType=INTEGER},
+			</if>
+			<if test="rName != null">
+				#{rName,jdbcType=VARCHAR},
+			</if>
+			<if test="rDescription != null">
+				#{rDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="rAddTime != null">
+				#{rAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="rStatus != null">
+				#{rStatus,jdbcType=CHAR},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update" parameterType="cn.heckman.module.pojo.TRole">
+		update t_role
+		<set>
+			<if test="rName != null">
+				r_name = #{rName,jdbcType=VARCHAR},
+			</if>
+			<if test="rDescription != null">
+				r_description = #{rDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="rAddTime != null">
+				r_add_time = #{rAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="rStatus != null">
+				r_status = #{rStatus,jdbcType=CHAR},
+			</if>
+		</set>
+		where r_id = #{rId,jdbcType=INTEGER}
+	</update>
+
+
+
+</mapper>

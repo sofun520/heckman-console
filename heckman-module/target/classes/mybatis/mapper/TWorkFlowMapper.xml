@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.heckman.module.dao.TWorkFlowDao">
+	<resultMap id="BaseResultMap" type="cn.heckman.module.pojo.TWorkFlow">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="start_user_id" property="startUserId" jdbcType="INTEGER" />
+		<result column="pro_definition_key" property="proDefinitionKey"
+			jdbcType="VARCHAR" />
+		<result column="task_pro_id" property="taskProId" jdbcType="VARCHAR" />
+		<result column="task_name" property="taskName" jdbcType="VARCHAR" />
+		<result column="task_start_time" property="taskStartTime"
+			jdbcType="TIMESTAMP" />
+		<result column="task_finish_time" property="taskFinishTime"
+			jdbcType="TIMESTAMP" />
+		<result column="task_is_finish" property="taskIsFinish"
+			jdbcType="CHAR" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+		id, start_user_id, pro_definition_key, task_pro_id,
+		task_name,
+		task_start_time, task_finish_time,
+		task_is_finish
+	</sql>
+
+	<select id="find" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from t_work_flow
+		where id = #{id,jdbcType=INTEGER}
+	</select>
+
+	<sql id="queryCommon">
+		select
+		<include refid="Base_Column_List" />
+		from t_work_flow
+		where 1=1
+		<if test="workFlow.startUserId != null and workFlow.startUserId != ''">
+			and start_user_id = #{workFlow.startUserId}
+		</if>
+	</sql>
+
+	<select id="query" parameterType="java.util.Map" resultMap="BaseResultMap">
+		<include refid="queryCommon" />
+		<if test="pageBean != null">
+			<if test="pageBean.pageSize != null and pageBean.pageSize >0">
+				limit #{pageBean.startIndex},#{pageBean.pageSize}
+			</if>
+		</if>
+	</select>
+
+	<select id="count" parameterType="java.util.Map" resultType="java.lang.Integer">
+		select count(1)
+		from (
+		<include refid="queryCommon" />
+		) as aa
+	</select>
+
+	<select id="queryByUserId" parameterType="java.util.Map"
+		resultType="cn.heckman.module.pojo.TWorkFlow">
+		SELECT
+	tt.*, tu.u_username AS username
+FROM
+	(
+		SELECT
+			aa.*, hc.MESSAGE_ AS message
+		FROM
+			(
+				SELECT
+					wf.*, ha.TASK_ID_ AS taskId,
+					ha.ACT_NAME_ AS actName,
+					ha.ASSIGNEE_ AS assignee,
+					ha.START_TIME_ AS startTime,
+					ha.END_TIME_ AS endTime
+				FROM
+					`t_work_flow` wf,
+					act_hi_actinst ha
+				WHERE
+					wf.task_pro_id = ha.PROC_INST_ID_
+			) aa
+		LEFT JOIN act_hi_comment hc ON aa.taskId = hc.TASK_ID_
+		WHERE
+			aa.start_user_id = #{userId}
+	) AS tt
+LEFT JOIN t_user tu ON tt.assignee = tu.u_id
+ORDER BY
+	tt.startTime
+	</select>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from t_work_flow
+		where
+		id = #{id,jdbcType=INTEGER}
+	</delete>
+
+
+
+	<insert id="insert" parameterType="cn.heckman.module.pojo.TWorkFlow">
+		insert into t_work_flow
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				id,
+			</if>
+			<if test="startUserId != null">
+				start_user_id,
+			</if>
+			<if test="proDefinitionKey != null">
+				pro_definition_key,
+			</if>
+			<if test="taskProId != null">
+				task_pro_id,
+			</if>
+			<if test="taskName != null">
+				task_name,
+			</if>
+			<if test="taskStartTime != null">
+				task_start_time,
+			</if>
+			<if test="taskFinishTime != null">
+				task_finish_time,
+			</if>
+			<if test="taskIsFinish != null">
+				task_is_finish,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER},
+			</if>
+			<if test="startUserId != null">
+				#{startUserId,jdbcType=INTEGER},
+			</if>
+			<if test="proDefinitionKey != null">
+				#{proDefinitionKey,jdbcType=VARCHAR},
+			</if>
+			<if test="taskProId != null">
+				#{taskProId,jdbcType=VARCHAR},
+			</if>
+			<if test="taskName != null">
+				#{taskName,jdbcType=VARCHAR},
+			</if>
+			<if test="taskStartTime != null">
+				#{taskStartTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="taskFinishTime != null">
+				#{taskFinishTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="taskIsFinish != null">
+				#{taskIsFinish,jdbcType=CHAR},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update" parameterType="cn.heckman.module.pojo.TWorkFlow">
+		update t_work_flow
+		<set>
+			<if test="startUserId != null">
+				start_user_id = #{startUserId,jdbcType=INTEGER},
+			</if>
+			<if test="proDefinitionKey != null">
+				pro_definition_key =
+				#{proDefinitionKey,jdbcType=VARCHAR},
+			</if>
+			<if test="taskProId != null">
+				task_pro_id = #{taskProId,jdbcType=VARCHAR},
+			</if>
+			<if test="taskName != null">
+				task_name = #{taskName,jdbcType=VARCHAR},
+			</if>
+			<if test="taskStartTime != null">
+				task_start_time = #{taskStartTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="taskFinishTime != null">
+				task_finish_time = #{taskFinishTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="taskIsFinish != null">
+				task_is_finish = #{taskIsFinish,jdbcType=CHAR},
+			</if>
+		</set>
+		where id = #{id,jdbcType=INTEGER}
+	</update>
+
+</mapper>

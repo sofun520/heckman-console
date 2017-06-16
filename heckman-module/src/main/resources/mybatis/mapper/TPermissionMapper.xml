@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.heckman.module.dao.TPermissionMapper">
+	<resultMap id="BaseResultMap" type="cn.heckman.module.pojo.TPermission">
+		<id column="p_id" property="pId" jdbcType="INTEGER" />
+		<result column="p_token" property="pToken" jdbcType="VARCHAR" />
+		<result column="p_url" property="pUrl" jdbcType="VARCHAR" />
+		<result column="p_description" property="pDescription"
+			jdbcType="VARCHAR" />
+		<result column="p_type" property="pType" jdbcType="CHAR" />
+		<result column="p_parent" property="pParent" jdbcType="INTEGER" />
+		<result column="p_add_time" property="pAddTime" jdbcType="TIMESTAMP" />
+		<result column="p_status" property="pStatus" jdbcType="CHAR" />
+	</resultMap>
+	
+	
+	<resultMap id="BaseResultMap1" type="cn.heckman.module.pojo.TPermission">
+		<id column="p_id" property="pId" jdbcType="INTEGER" />
+		<result column="p_token" property="pToken" jdbcType="VARCHAR" />
+		<result column="p_url" property="pUrl" jdbcType="VARCHAR" />
+		<result column="p_description" property="pDescription"
+			jdbcType="VARCHAR" />
+		<result column="p_type" property="pType" jdbcType="CHAR" />
+		<result column="p_parent" property="pParent" jdbcType="INTEGER" />
+		<result column="p_add_time" property="pAddTime" jdbcType="TIMESTAMP" />
+		<result column="p_status" property="pStatus" jdbcType="CHAR" />
+		
+		<collection property="cList" ofType="cn.heckman.module.pojo.TPermission" column="p_parent1">
+			<id column="p_id1" property="pId" jdbcType="INTEGER" />
+			<result column="p_token1" property="pToken" jdbcType="VARCHAR" />
+			<result column="p_url1" property="pUrl" jdbcType="VARCHAR" />
+			<result column="p_description1" property="pDescription"
+				jdbcType="VARCHAR" />
+			<result column="p_type1" property="pType" jdbcType="CHAR" />
+			<result column="p_parent1" property="pParent" jdbcType="INTEGER" />
+			<result column="p_add_time1" property="pAddTime" jdbcType="TIMESTAMP" />
+			<result column="p_status1" property="pStatus" jdbcType="CHAR" />
+			
+			<collection property="cList" ofType="cn.heckman.module.pojo.TPermission" column="p_parent1">
+				<id column="p_id2" property="pId" jdbcType="INTEGER" />
+				<result column="p_token2" property="pToken" jdbcType="VARCHAR" />
+				<result column="p_url2" property="pUrl" jdbcType="VARCHAR" />
+				<result column="p_description2" property="pDescription"
+					jdbcType="VARCHAR" />
+				<result column="p_type2" property="pType" jdbcType="CHAR" />
+				<result column="p_parent2" property="pParent" jdbcType="INTEGER" />
+				<result column="p_add_time2" property="pAddTime" jdbcType="TIMESTAMP" />
+				<result column="p_status2" property="pStatus" jdbcType="CHAR" />
+			</collection>
+			
+		</collection>
+	</resultMap>
+
+	<sql id="Base_Column_List">
+		p_id, p_token, p_url, p_description, p_type, p_parent,
+		p_add_time, p_status
+	</sql>
+
+	<select id="find" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from t_permission
+		where p_id = #{pId,jdbcType=INTEGER}
+	</select>
+
+	<select id="query" resultMap="BaseResultMap" parameterType="java.util.Map">
+		select
+		<include refid="Base_Column_List" />
+		from t_permission
+		where 1=1
+		<if test="pType != null and pType != ''">
+			and p_type = #{pType}
+		</if>
+		<if test="pParent != null and pParent != ''">
+			and p_parent = #{pParent}
+		</if>
+		<if test="flag == 1">
+			<if test="pParent == null or pParent == ''">
+				and p_parent is null
+			</if>
+		</if>
+		<if test="pDescription != null and pDescription != ''">
+			and p_description like '%${pDescription}%'
+		</if>
+	</select>
+
+
+	<select id="permissionSetList" resultMap="BaseResultMap1"
+		parameterType="java.util.Map">
+		SELECT
+			t_p.*,
+			t_c.p_id as p_id1,
+			t_c.p_token as p_token1,
+			t_c.p_url as p_url1,
+			t_c.p_description as p_description1,
+			t_c.p_type as p_type1,
+			t_c.p_parent as p_parent1,
+			t_c.p_add_time as p_add_time1,
+			t_c.p_status as p_status1,
+			t_c1.p_id as p_id2,
+			t_c1.p_token as p_token2,
+			t_c1.p_url as p_url2,
+			t_c1.p_description as p_description2,
+			t_c1.p_type as p_type2,
+			t_c1.p_parent as p_parent2,
+			t_c1.p_add_time as p_add_time2,
+			t_c1.p_status as p_status2
+		FROM
+			t_permission t_p
+		LEFT JOIN t_permission t_c ON t_p.p_id = t_c.p_parent
+		LEFT JOIN t_permission t_c1 ON t_c.p_id = t_c1.p_parent
+		WHERE
+			t_p.p_parent = 1
+	</select>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from t_permission
+		where
+		p_id = #{pId,jdbcType=INTEGER}
+	</delete>
+
+
+	<insert id="insert" parameterType="cn.heckman.module.pojo.TPermission">
+		insert into t_permission
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="pId != null">
+				p_id,
+			</if>
+			<if test="pToken != null">
+				p_token,
+			</if>
+			<if test="pUrl != null">
+				p_url,
+			</if>
+			<if test="pDescription != null">
+				p_description,
+			</if>
+			<if test="pType != null">
+				p_type,
+			</if>
+			<if test="pParent != null">
+				p_parent,
+			</if>
+			<if test="pAddTime != null">
+				p_add_time,
+			</if>
+			<if test="pStatus != null">
+				p_status,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="pId != null">
+				#{pId,jdbcType=INTEGER},
+			</if>
+			<if test="pToken != null">
+				#{pToken,jdbcType=VARCHAR},
+			</if>
+			<if test="pUrl != null">
+				#{pUrl,jdbcType=VARCHAR},
+			</if>
+			<if test="pDescription != null">
+				#{pDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="pType != null">
+				#{pType,jdbcType=CHAR},
+			</if>
+			<if test="pParent != null">
+				#{pParent,jdbcType=INTEGER},
+			</if>
+			<if test="pAddTime != null">
+				#{pAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="pStatus != null">
+				#{pStatus,jdbcType=CHAR},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update" parameterType="cn.heckman.module.pojo.TPermission">
+		update t_permission
+		<set>
+			<if test="pToken != null">
+				p_token = #{pToken,jdbcType=VARCHAR},
+			</if>
+			<if test="pUrl != null">
+				p_url = #{pUrl,jdbcType=VARCHAR},
+			</if>
+			<if test="pDescription != null">
+				p_description = #{pDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="pType != null">
+				p_type = #{pType,jdbcType=CHAR},
+			</if>
+			<if test="pParent != null">
+				p_parent = #{pParent,jdbcType=INTEGER},
+			</if>
+			<if test="pAddTime != null">
+				p_add_time = #{pAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="pStatus != null">
+				p_status = #{pStatus,jdbcType=CHAR},
+			</if>
+		</set>
+		where p_id = #{pId,jdbcType=INTEGER}
+	</update>
+
+	<select id="userPermissionsTree" parameterType="java.util.Map"
+		resultType="cn.heckman.module.pojo.RolePermissionTree">
+		SELECT
+		tp.p_id AS id,
+		(
+		CASE
+		WHEN tp.p_parent IS NULL THEN
+		'0'
+		WHEN tp.p_parent IS NOT NULL THEN
+		tp.p_parent
+		END
+		) AS pId,
+		CASE when
+		tp.p_type='1' then CONCAT(tp.p_description,' (菜单)')
+		when tp.p_type='2' then CONCAT(tp.p_description,' (操作)')
+		END
+		AS name,
+		(
+		CASE
+		WHEN trp.id IS NULL THEN
+		'false'
+		WHEN
+		trp.id IS NOT NULL THEN
+		'true'
+		END
+		)
+		AS checked
+		FROM
+		t_permission tp
+		LEFT
+		OUTER JOIN t_role_permission trp ON
+		tp.p_id =
+		trp.permission_id
+		AND
+		trp.role_id = #{roleId}
+	</select>
+
+
+</mapper>

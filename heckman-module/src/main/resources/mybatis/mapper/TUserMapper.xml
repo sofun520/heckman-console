@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.heckman.module.dao.TUserMapper">
+	<resultMap id="BaseResultMap1" type="cn.heckman.module.pojo.TUser">
+		<id column="u_id" property="uId" jdbcType="INTEGER" />
+		<result column="u_username" property="uUsername" jdbcType="VARCHAR" />
+		<result column="u_password" property="uPassword" jdbcType="VARCHAR" />
+		<result column="u_phone" property="uPhone" jdbcType="VARCHAR" />
+		<result column="u_add_time" property="uAddTime" jdbcType="TIMESTAMP" />
+		<result column="u_email" property="uEmail" jdbcType="VARCHAR" />
+		<result column="u_status" property="uStatus" jdbcType="CHAR" />
+		<result column="u_pic" property="uPic" jdbcType="VARCHAR" />
+	</resultMap>
+
+	<resultMap id="BaseResultMap" type="cn.heckman.module.pojo.TUser">
+		<id column="u_id" property="uId" jdbcType="INTEGER" />
+		<result column="u_username" property="uUsername" jdbcType="VARCHAR" />
+		<result column="u_password" property="uPassword" jdbcType="VARCHAR" />
+		<result column="u_phone" property="uPhone" jdbcType="VARCHAR" />
+		<result column="u_add_time" property="uAddTime" jdbcType="TIMESTAMP" />
+		<result column="u_email" property="uEmail" jdbcType="VARCHAR" />
+		<result column="u_status" property="uStatus" jdbcType="CHAR" />
+		<result column="u_pic" property="uPic" jdbcType="VARCHAR" />
+
+		<collection property="roles" ofType="cn.heckman.module.pojo.TRole">
+			<id column="r_id" property="rId" jdbcType="INTEGER" />
+			<result column="r_name" property="rName" jdbcType="VARCHAR" />
+			<result column="r_description" property="rDescription"
+				jdbcType="VARCHAR" />
+			<result column="r_add_time" property="rAddTime" jdbcType="TIMESTAMP" />
+			<result column="r_status" property="rStatus" jdbcType="CHAR" />
+		</collection>
+
+	</resultMap>
+
+	<resultMap id="getRolesByUsernameMap" type="cn.heckman.module.pojo.TUser">
+		<id column="u_id" property="uId" jdbcType="INTEGER" />
+		<result column="u_username" property="uUsername" jdbcType="VARCHAR" />
+		<result column="u_phone" property="uPhone" jdbcType="VARCHAR" />
+		<result column="u_add_time" property="uAddTime" jdbcType="TIMESTAMP" />
+		<result column="u_email" property="uEmail" jdbcType="VARCHAR" />
+		<result column="u_status" property="uStatus" jdbcType="CHAR" />
+		<result column="u_pic" property="uPic" jdbcType="VARCHAR" />
+
+		<collection property="roles" ofType="cn.heckman.module.pojo.TRole">
+			<id column="r_id" property="rId" jdbcType="INTEGER" />
+			<result column="r_name" property="rName" jdbcType="VARCHAR" />
+			<result column="r_description" property="rDescription"
+				jdbcType="VARCHAR" />
+			<result column="r_add_time" property="rAddTime" jdbcType="TIMESTAMP" />
+			<result column="r_status" property="rStatus" jdbcType="CHAR" />
+		</collection>
+	</resultMap>
+
+	<resultMap id="getPermissionsMap" type="cn.heckman.module.pojo.TPermission">
+		<id column="p_id" property="pId" jdbcType="INTEGER" />
+		<result column="p_token" property="pToken" jdbcType="VARCHAR" />
+		<result column="p_url" property="pUrl" jdbcType="VARCHAR" />
+		<result column="p_description" property="pDescription"
+			jdbcType="VARCHAR" />
+		<result column="p_add_time" property="pAddTime" jdbcType="TIMESTAMP" />
+		<result column="p_status" property="pStatus" jdbcType="CHAR" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+		u_id, u_username, u_password, u_phone, u_add_time, u_email,
+		u_status, u_pic
+	</sql>
+
+	<select id="find" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from t_user
+		where u_id = #{uId,jdbcType=INTEGER}
+	</select>
+
+	<select id="query" resultMap="BaseResultMap" parameterType="java.util.Map">
+		SELECT
+		u.*, r.*
+		FROM
+		t_user u,
+		t_role r,
+		t_user_role ur
+		WHERE
+		ur.user_id =
+		u.u_id
+		AND ur.role_id = r.r_id
+		<if test="uUsername != null and uUsername != ''">
+			AND u.u_username = #{uUsername}
+		</if>
+	</select>
+
+	<select id="findUser" resultMap="BaseResultMap"
+		parameterType="cn.heckman.module.pojo.TUser">
+		SELECT
+		*
+		FROM
+		t_user
+		where 1=1
+		<if test="uUsername != null and uUsername != ''">
+			AND u_username = #{uUsername}
+		</if>
+	</select>
+
+	<select id="queryPage" resultMap="BaseResultMap1" parameterType="java.util.Map">
+		SELECT
+		*
+		FROM
+		t_user
+		WHERE
+		1=1
+		<if test="uUsername != null and uUsername != ''">
+			AND u_username like '%${uUsername}%'
+		</if>
+		<if test="uPhone != null and uPhone != ''">
+			AND u_phone like '%${uPhone}%'
+		</if>
+		<if test="uEmail != null and uEmail != ''">
+			AND u_email like '%${uEmail}%'
+		</if>
+	</select>
+
+	<select id="getRolesByUsername" parameterType="java.lang.String"
+		resultMap="getRolesByUsernameMap">
+		SELECT
+		u.*, r.*
+		FROM
+		t_user u,
+		t_role r,
+		t_user_role ur
+		WHERE
+		u.u_id = ur.user_id
+		AND r.r_id = ur.role_id
+		AND u.u_username =
+		#{username}
+	</select>
+
+	<select id="getPermissions" parameterType="java.util.Map"
+		resultMap="getPermissionsMap">
+		SELECT
+		tp.*
+		FROM
+		(
+		SELECT DISTINCT
+		(trp.permission_id) AS permission_id
+		FROM
+		(
+		SELECT
+		tur.role_id AS role_id
+		FROM
+		t_user tu
+		LEFT JOIN t_user_role tur ON tu.u_id = tur.user_id
+		WHERE
+		tu.u_username = #{uUsername}
+		) roles,
+		t_role_permission trp
+		WHERE
+		roles.role_id = trp.role_id
+		) AS per_ids,
+		t_permission tp
+		WHERE
+		per_ids.permission_id = tp.p_id
+		<if test="pType!= null and pType != ''">
+			AND tp.p_type = #{pType}
+		</if>
+		<if test="pParent != null and pParent != ''">
+			AND tp.p_parent = #{pParent}
+		</if>
+		ORDER BY
+		tp.p_id
+	</select>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from t_user
+		where u_id =
+		#{uId,jdbcType=INTEGER}
+	</delete>
+
+
+	<insert id="insert" parameterType="cn.heckman.module.pojo.TUser">
+		insert into t_user
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="uId != null">
+				u_id,
+			</if>
+			<if test="uUsername != null">
+				u_username,
+			</if>
+			<if test="uPassword != null">
+				u_password,
+			</if>
+			<if test="uPhone != null">
+				u_phone,
+			</if>
+			<if test="uAddTime != null">
+				u_add_time,
+			</if>
+			<if test="uEmail != null">
+				u_email,
+			</if>
+			<if test="uStatus != null">
+				u_status,
+			</if>
+			<if test="uPic != null">
+				u_pic,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="uId != null">
+				#{uId,jdbcType=INTEGER},
+			</if>
+			<if test="uUsername != null">
+				#{uUsername,jdbcType=VARCHAR},
+			</if>
+			<if test="uPassword != null">
+				#{uPassword,jdbcType=VARCHAR},
+			</if>
+			<if test="uPhone != null">
+				#{uPhone,jdbcType=VARCHAR},
+			</if>
+			<if test="uAddTime != null">
+				#{uAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="uEmail != null">
+				#{uEmail,jdbcType=VARCHAR},
+			</if>
+			<if test="uStatus != null">
+				#{uStatus,jdbcType=CHAR},
+			</if>
+			<if test="uPic != null">
+				#{uPic,jdbcType=VARCHAR},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update" parameterType="cn.heckman.module.pojo.TUser">
+		update t_user
+		<set>
+			<if test="uUsername != null">
+				u_username = #{uUsername,jdbcType=VARCHAR},
+			</if>
+			<if test="uPassword != null">
+				u_password = #{uPassword,jdbcType=VARCHAR},
+			</if>
+			<if test="uPhone != null">
+				u_phone = #{uPhone,jdbcType=VARCHAR},
+			</if>
+			<if test="uAddTime != null">
+				u_add_time = #{uAddTime,jdbcType=TIMESTAMP},
+			</if>
+			<if test="uEmail != null">
+				u_email = #{uEmail,jdbcType=VARCHAR},
+			</if>
+			<if test="uStatus != null">
+				u_status = #{uStatus,jdbcType=CHAR},
+			</if>
+			<if test="uPic != null">
+				u_pic = #{uPic,jdbcType=VARCHAR},
+			</if>
+		</set>
+		where u_id = #{uId,jdbcType=INTEGER}
+	</update>
+
+	<select id="userRoleTree" parameterType="java.util.Map"
+		resultType="cn.heckman.module.pojo.UserRoleTree">
+		SELECT
+		tr.r_id as id,'' as pId,tr.r_name as
+		code,tr.r_description as name, CASE
+		WHEN
+		tur.id IS NULL THEN
+		'false'
+		WHEN
+		tur.id IS NOT NULL THEN
+		'true'
+		END AS checked
+		FROM
+		`t_role` tr
+		LEFT OUTER
+		JOIN t_user_role tur ON tr.r_id = tur.role_id
+		AND
+		tur.user_id =
+		#{userId}
+		ORDER BY id
+	</select>
+
+</mapper>

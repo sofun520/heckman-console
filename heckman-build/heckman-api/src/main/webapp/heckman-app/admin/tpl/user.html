@@ -1,0 +1,105 @@
+<div class="wrapper-md ng-scope" style="font-size: 12px;" ng-controller="userCtrl" ng-init="init()">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">用户列表</div>
+                <table class="table table-striped m-b-none table-bordered">
+                    <thead>
+                    <tr>
+                        <th class="text-center">#</th>
+                        <th class="text-center">用户名</th>
+                        <th class="text-center">手机号码</th>
+                        <th class="text-center">注册时间</th>
+                        <th class="text-center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="permissionList">
+                    <tr ng-if="noDataShow">
+                        <td colspan="8" align="center">没有数据</td>
+                    </tr>
+                    <tr ng-if="dataShow" ng-repeat="x in userList track by $index">
+                        <td>{{$index+1}}</td>
+                        <td>{{x.uUsername}}</td>
+                        <td>{{x.uPhone}}</td>
+                        <td>{{x.uAddTime | date:'yyyy-MM-dd'}}</td>
+                        <td class="text-center">
+                            <a href="javascript:void(0)"
+                               ng-click="delUser(x.uId)">删除</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                                href="javascript:void(0)" ng-click="editUser(x.uId)">修改</a>
+                            &nbsp;&nbsp;<a href="javascript:void(0)" ng-click="assignRole(x.uId)">分配角色</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="panel panel-default" ng-if="userShow">
+                <div class="panel-heading">
+                    {{addOrEditFlag?'新增用户':'修改用户信息'}}
+                </div>
+                <div class="wrapper">
+                    <form class="form-horizontal ng-pristine ng-invalid ng-invalid-required" id="myForm" method="post">
+                        <div class="box-body">
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">用户ID</label>
+                                <div class="col-sm-9">
+                                    <input type="hidden" ng-model="userInfo.uId"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                    <input type="text" readonly="readonly" ng-model="userInfo.uId"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-valid"
+                                           placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">用户名</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="userInfo.uUsername" required=""
+                                           ng-readonly="usernameReadOnly"
+                                           class="form-control input-sm ng-pristine ng-untouched ng-invalid ng-invalid-required"
+                                           id="search_aName" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">手机号码</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="userInfo.uPhone" required=""
+                                           class="form-control input-sm ng-pristine ng-untouched ng-invalid ng-invalid-required"
+                                           id="search_aName" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label">邮箱地址</label>
+                                <div class="col-sm-9">
+                                    <input type="text" ng-model="userInfo.uEmail" required=""
+                                           class="form-control input-sm ng-pristine ng-untouched ng-invalid ng-invalid-required"
+                                           id="search_aName" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-right: 0px;">
+                                <label for="search_aName" class="col-sm-3 control-label"></label>
+                                <div class="col-sm-9">
+                                    <button type="button" ng-click="submit()" class="btn btn-info btn-sm">保存</button>
+                                    <!--<button type="button" ng-click="reset()" class="btn btn-info btn-sm">重置</button>-->
+                                    <button type="button" ng-click="addUser()" class="btn btn-info btn-sm">新增用户</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-footer -->
+                    </form>
+                </div>
+            </div>
+            <div class="panel panel-default" ng-if="assignRoleShow">
+                <div class="panel-heading">
+                    分配角色
+                </div>
+                <div class="wrapper">
+                    <ul id="roleList">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

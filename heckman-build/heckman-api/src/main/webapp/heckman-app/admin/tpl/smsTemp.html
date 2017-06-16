@@ -1,0 +1,96 @@
+<div class="wrapper-md ng-scope" style="font-size: 12px;" ng-controller="smsTempCtrl" ng-init="init()">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <div class="row" ng-if="permissions['app.smsTemp.searchForm']">
+                <div class="col-sm-2">
+                    <button class="btn btn-sm btn-default btn-info" type="button" ng-click="addNew()" ng-if="permissions['app.smsTemp.add']">新增模板</button>
+                    <button class="btn btn-sm btn-default" type="button" ng-click="addLabel()" ng-if="permissions['app.smsTemp.export']">导出模板</button>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">
+                    <input type="text"
+                           class="form-control input-sm ng-touched ng-dirty ng-valid-parse ng-invalid ng-invalid-required"
+                           ng-model="param.tTempId" placeholder="模板id" required="">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text"
+                           class="form-control input-sm ng-touched ng-dirty ng-valid-parse ng-invalid ng-invalid-required"
+                           ng-model="param.tName" placeholder="模板名称" required="">
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn btn-sm btn-default" type="button" ng-click="search()">查询</button>
+                    <button class="btn btn-sm btn-default" type="button" ng-click="clear()">清空</button>
+                </div>
+            </div>
+
+        </div>
+        <table class="table table-bordered table-striped">
+            <tbody>
+            <tr>
+                <th class="text-center" style="width: 10px">#</th>
+                <th class="text-center">模板名称</th>
+                <th class="text-center">模板id</th>
+                <th class="text-center">模板描述</th>
+                <th class="text-center">模板内容</th>
+                <th class="text-center">新增时间</th>
+                <th class="text-center" style="width: 200px" ng-if="permissions['app.smsTemp.del'] || permissions['app.smsTemp.edit']">操作</th>
+            </tr>
+            <tr ng-if="noDataShow">
+                <td colspan="8" align="center">没有数据</td>
+            </tr>
+            <tr ng-if="dataShow" ng-repeat="x in stList track by $index">
+                <td>{{$index+1}}</td>
+                <td>{{x.tName}}</td>
+                <td>{{x.tTempId}}</td>
+                <td>{{x.tDescription}}</td>
+                <td>{{x.tContent}}</td>
+                <td>{{x.tAddTime | date:'yyyy-MM-dd'}}</td>
+                <td align="center" ng-if="permissions['app.smsTemp.del'] || permissions['app.smsTemp.edit']">
+                    <a href="javascript:void(0)"
+                                      ng-click="del(x.tId)" ng-if="permissions['app.smsTemp.del']">删除</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="javascript:void(0)" ng-click="editRole(x.tId)" ng-if="permissions['app.smsTemp.edit']">修改</a>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+        <footer class="panel-footer">
+            <div class="text-right text-center-xs">
+                <ul class="pagination pagination-sm m-t-none m-b-none" id="foot_page">
+                    <!--<li><a>第 {{pageBean.page}}页</a></li>
+                    <li><a href=""><i class="fa fa-chevron-left"></i></a></li>
+                    <li><a href="" ng-click="changePage(1)">1</a></li>
+                    <li><a href="" ng-click="changePage(2)">2</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i></a></li>-->
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <div id="input_form" ng-show="input_form_show">
+        <div class="panel-body">
+            <div class="form-group pull-in clearfix">
+                <div class="col-sm-6">
+                    <label>模板名称</label>
+                    <input type="text" id="tName" ng-model="smsTempForm.tName" class="form-control input-sm ng-invalid ng-invalid-required">
+                </div>
+                <div class="col-sm-6">
+                    <label>模板id</label>
+                    <input type="text" ng-model="smsTempForm.tTempId" class="form-control input-sm ng-invalid ng-invalid-required">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>模板描述</label>
+                <input type="text" ng-model="smsTempForm.tDescription" class="form-control input-sm ng-invalid ng-invalid-required">
+            </div>
+            <div class="form-group">
+                <label>模板内容</label>
+                <input type="text" ng-model="smsTempForm.tContent" class="form-control input-sm ng-invalid ng-invalid-required">
+            </div>
+        </div>
+
+    </div>
+
+
+</div>

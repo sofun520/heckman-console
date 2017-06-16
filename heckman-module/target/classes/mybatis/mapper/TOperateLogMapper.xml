@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.heckman.module.dao.TOperateLogMapper">
+	<resultMap id="BaseResultMap" type="cn.heckman.module.pojo.TOperateLog">
+		<id column="o_id" property="oId" jdbcType="INTEGER" />
+		<result column="o_bus_code" property="oBusCode" jdbcType="VARCHAR" />
+		<result column="o_bus_description" property="oBusDescription"
+			jdbcType="VARCHAR" />
+		<result column="o_user_id" property="oUserId" jdbcType="INTEGER" />
+		<result column="o_user_name" property="oUserName" jdbcType="VARCHAR" />
+		<result column="o_add_time" property="oAddTime" jdbcType="TIMESTAMP" />
+	</resultMap>
+
+	<sql id="Base_Column_List">
+		o_id, o_bus_code, o_bus_description, o_user_id,
+		o_user_name, o_add_time
+	</sql>
+
+	<select id="find" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from t_operate_log
+		where o_id = #{oId,jdbcType=INTEGER}
+	</select>
+
+	<sql id="queryCommon">
+		select
+		<include refid="Base_Column_List" />
+		from t_operate_log
+		where 1=1
+		<if test="operateLog != null">
+			<if test="operateLog.oBusCode != null and operateLog.oBusCode != ''">
+				and o_bus_code = #{operateLog.oBusCode}
+			</if>
+			<if test="operateLog.oUserName != null and operateLog.oUserName != ''">
+				and o_user_name = #{operateLog.oUserName}
+			</if>
+		</if>
+	</sql>
+
+	<select id="query" resultMap="BaseResultMap" parameterType="java.util.Map">
+		<include refid="queryCommon" />
+		<if test="pageBean != null">
+			<if test="pageBean.pageSize != null and pageBean.pageSize >0">
+				limit #{pageBean.startIndex},#{pageBean.pageSize}
+			</if>
+		</if>
+	</select>
+
+	<select id="count" resultType="java.lang.Integer" parameterType="java.util.Map">
+		select
+		count(*)
+		from (
+		<include refid="queryCommon" />
+		) as a
+	</select>
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from t_operate_log
+		where o_id = #{oId,jdbcType=INTEGER}
+	</delete>
+
+
+	<insert id="insert" parameterType="cn.heckman.module.pojo.TOperateLog">
+		insert into t_operate_log
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="oId != null">
+				o_id,
+			</if>
+			<if test="oBusCode != null">
+				o_bus_code,
+			</if>
+			<if test="oBusDescription != null">
+				o_bus_description,
+			</if>
+			<if test="oUserId != null">
+				o_user_id,
+			</if>
+			<if test="oUserName != null">
+				o_user_name,
+			</if>
+			<if test="oAddTime != null">
+				o_add_time,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="oId != null">
+				#{oId,jdbcType=INTEGER},
+			</if>
+			<if test="oBusCode != null">
+				#{oBusCode,jdbcType=VARCHAR},
+			</if>
+			<if test="oBusDescription != null">
+				#{oBusDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="oUserId != null">
+				#{oUserId,jdbcType=INTEGER},
+			</if>
+			<if test="oUserName != null">
+				#{oUserName,jdbcType=VARCHAR},
+			</if>
+			<if test="oAddTime != null">
+				#{oAddTime,jdbcType=TIMESTAMP},
+			</if>
+		</trim>
+	</insert>
+
+	<update id="update" parameterType="cn.heckman.module.pojo.TOperateLog">
+		update t_operate_log
+		<set>
+			<if test="oBusCode != null">
+				o_bus_code = #{oBusCode,jdbcType=VARCHAR},
+			</if>
+			<if test="oBusDescription != null">
+				o_bus_description = #{oBusDescription,jdbcType=VARCHAR},
+			</if>
+			<if test="oUserId != null">
+				o_user_id = #{oUserId,jdbcType=INTEGER},
+			</if>
+			<if test="oUserName != null">
+				o_user_name = #{oUserName,jdbcType=VARCHAR},
+			</if>
+			<if test="oAddTime != null">
+				o_add_time = #{oAddTime,jdbcType=TIMESTAMP},
+			</if>
+		</set>
+		where o_id = #{oId,jdbcType=INTEGER}
+	</update>
+
+</mapper>

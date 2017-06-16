@@ -1,0 +1,82 @@
+<!-- navbar -->
+<div ng-controller="frameController" ng-init="init()">
+    <div data-ng-include=" 'admin/tpl/blocks/header.html' " class="app-header navbar">
+    </div>
+    <!-- / navbar -->
+
+    <div class="app-aside hidden-xs {{app.settings.asideColor}}"
+         style="font-size: 12px;">
+        <div class="aside-wrap">
+            <!--style="position: fixed;width: 200px;"-->
+            <div class="navi-wrap">
+                <nav ui-nav class="navi">
+                    <ul class="nav">
+                        <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                            <!--translate="aside.nav.HEADER"-->
+                            <span>功能导航</span>
+                        </li>
+
+                        <li ui-sref-active="active" ng-repeat="x in submenus track by $index">
+                            <a ui-sref="{{x.pToken}}">
+                                <i class="glyphicon glyphicon-th-large icon text-success"></i>
+                                <span>{{x.pDescription}}</span>
+                            </a>
+                        </li>
+
+
+                        <!--<li ui-sref-active="active">
+                            <a ui-sref="app.permission">
+                                <i class="glyphicon glyphicon-th-large icon text-success"></i>
+                                <span>权限菜单管理{{test}}</span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.role">
+                                <i class="glyphicon glyphicon-th-large icon text-success"></i>
+                                <span>角色管理</span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.user">
+                                <i class="glyphicon glyphicon-th-large icon text-success"></i>
+                                <span>用户管理</span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.operateLog">
+                                <i class="glyphicon glyphicon-th-large icon text-success"></i>
+                                <span>操作日志管理</span>
+                            </a>
+                        </li>
+                        <li ui-sref-active="active">
+                            <a ui-sref="app.smsTemp">
+                                <i class="glyphicon glyphicon-th-large icon text-success"></i>
+                                <span>短信模板管理</span>
+                            </a>
+                        </li>-->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- / menu -->
+
+    <!-- content -->
+    <div class="app-content">
+        <div ui-butterbar></div>
+        <a href class="off-screen-toggle hide" ui-toggle-class="off-screen" data-target=".app-aside"></a>
+        <div class="app-content-body fade-in-up" ui-view></div>
+    </div>
+    <!-- /content -->
+
+
+    <!-- footer -->
+    <div class="app-footer wrapper b-t bg-light">
+    <span class="pull-right">{{app.version}}</span>
+        &copy; 2014 Copyright.
+    </div>
+    <!-- / footer -->
+
+    <!--<div data-ng-include=" 'admin/tpl/blocks/settings.html' " class="settings panel panel-default">-->
+</div>
+</div>
