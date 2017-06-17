@@ -1,4 +1,4 @@
-var rootUrl = 'http://localhost:9090/heckman-api/';
+var rootUrl = 'http://localhost:8080/';
 
 var getUserInfo = function () {
 

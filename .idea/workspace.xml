@@ -1,7 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88172e46-4ba4-4cb7-9806-940ecc01c526" name="Default" comment="" />
+    <list default="true" id="88172e46-4ba4-4cb7-9806-940ecc01c526" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/m2e-wtp/web-resources/META-INF/maven/heckman-build/heckman-api/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/m2e-wtp/web-resources/META-INF/maven/heckman-build/heckman-api/pom.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/ActivitiDemo.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/ActivitiDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/ActivitiDemo2.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/ActivitiDemo2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/CheckLogin.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/CheckLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/OperateLogController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/OperateLogController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TPermissionController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TPermissionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TRoleController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TRoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TSmsTempController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TSmsTempController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TUserController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/TUserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/VerifyCodeController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/VerifyCodeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/WorkFlowController.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/controller/WorkFlowController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/realm/MyRealm.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/realm/MyRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/realm/Test.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/realm/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/taskListener/LeaveTaskListener.class" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/target/classes/cn/heckman/api/taskListener/LeaveTaskListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/BaseMapper.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/BaseMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/BaseService.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/BaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/Page.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/ResultData.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/common/ResultData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/ActivitiConstant.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/ActivitiConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/Constants.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/JsonXMLUtils.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/JsonXMLUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/MD5Util.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/MD5Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/ResponseData.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/ResponseData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/ShiroSessionUtil.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/ShiroSessionUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/VerifyCodeUtil.class" afterPath="$PROJECT_DIR$/heckman-framework/target/classes/cn/heckman/framework/utils/VerifyCodeUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-framework/target/test-classes/org/heckman/framework/AppTest.class" afterPath="$PROJECT_DIR$/heckman-framework/target/test-classes/org/heckman/framework/AppTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/BasePage.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/BasePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/FilterDemo.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/FilterDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/OperateLogConstants.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/OperateLogConstants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/PageBean.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/common/PageBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TOperateLogMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TOperateLogMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TPermissionMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TPermissionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TRoleMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TRoleMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TRolePermissionMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TRolePermissionMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TSmsTempMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TSmsTempMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TUserMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TUserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TUserRoleMapper.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TUserRoleMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TWorkFlowDao.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/dao/TWorkFlowDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/RolePermissionTree.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/RolePermissionTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TOperateLog.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TOperateLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TPermission.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TPermission.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TRole.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TRolePermission.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TRolePermission.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TSmsTemp.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TSmsTemp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TUser.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TUserRole.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TUserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TWorkFlow.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/TWorkFlow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/UserRoleTree.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/pojo/UserRoleTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TOperateLogService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TOperateLogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TPermissionService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TPermissionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TRolePermissionService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TRolePermissionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TRoleService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TRoleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TSmsTempService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TSmsTempService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TUserRoleService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TUserRoleService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TUserService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TWorkFlowService.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/TWorkFlowService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TOperateLogServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TOperateLogServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TPermissionServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TPermissionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TRolePermissionServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TRolePermissionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TRoleServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TRoleServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TSmsTempServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TSmsTempServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TUserRoleServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TUserRoleServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TUserServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TUserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TWorkFlowServiceImpl.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/service/impl/TWorkFlowServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/vo/PermissionUser.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/vo/PermissionUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/vo/UserAndRole.class" afterPath="$PROJECT_DIR$/heckman-module/target/classes/cn/heckman/module/vo/UserAndRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-module/target/test-classes/org/heckman/module/AppTest.class" afterPath="$PROJECT_DIR$/heckman-module/target/test-classes/org/heckman/module/AppTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.router.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/app.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/operateLog.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/operateLog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/permission.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/permission.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/role.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/role.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/signin.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/signin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/smsTemp.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/smsTemp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/user.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/workFlow.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/workFlow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/main.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/app.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/aside.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/aside.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/header.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/nav.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/page_footer.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/page_footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/settings.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/home.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/operateLog.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/operateLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/permission.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/permission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/role.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/role.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/signin.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/signin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/smsTemp.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/smsTemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/user.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/workFlow.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/workFlow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/angular-stripped.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/angular-stripped.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/api/login" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/api/login" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/api/signup" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/api/signup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/GruntFile.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/GruntFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/Readme first!.txt" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/Readme first!.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/bower-install-simple.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/bower-install-simple.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/bump.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/bump.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/changelog.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/changelog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/clean.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/clean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/concat.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/copy.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/copy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/htmlmin.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/htmlmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/index.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/recess.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/recess.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/uglify.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/grunt/uglify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/readme.txt" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/update.txt" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/bak/update.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/animate.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/font.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/font.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.arrow.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.arrow.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.butterbar.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.butterbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.buttons.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.colors.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.colors.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.components.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.components.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.item.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.item.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.layout.boxed.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.layout.boxed.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.layout.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.layout.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.mixins.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.nav.dock.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.nav.dock.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.nav.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.nav.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.nav.offscreen.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.nav.offscreen.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.ng.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.ng.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.plugin.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.plugin.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.reset.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.reset.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.utilities.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.variables.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.widgets.less" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/less/app.widgets.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/simple-line-icons.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/css/simple-line-icons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/fonts/Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/fonts/Simple-Line-Icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/index.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/index.min.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/index.min.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/calendar/calendar.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/calendar/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/contact/contact.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/contact/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/contact/contacts.json" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/contact/contacts.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/mail/mail-service.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/mail/mail-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/mail/mail.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/mail/mail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/mail/mails.json" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/mail/mails.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/map/load-google-maps.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/map/load-google-maps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/map/map.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/map/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/map/ui-map.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/map/ui-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/music/ctrl.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/music/ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/note/note.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/note/note.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/note/notes.json" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/note/notes.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/weather/ctrl.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/weather/ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/weather/skycons.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app/weather/skycons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/config.router.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/config.router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/bootstrap.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/chart.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/editor.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/file-upload.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/file-upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/form.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/grid.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/imgcrop.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/imgcrop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/largeLoad.json" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/largeLoad.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/select.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/signin.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/signin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/signup.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/signup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/slider.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/tab.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/toaster.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/toaster.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/tree.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/upload.php" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/vectormap.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/controllers/vectormap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/setnganimate.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/setnganimate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-butterbar.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-butterbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-focus.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-focus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-fullscreen.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-fullscreen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-jq.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-jq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-module.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-nav.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-scroll.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-scroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-shift.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-shift.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-toggleclass.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-toggleclass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-validate.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/directives/ui-validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/filters/fromNow.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/filters/fromNow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/main.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/services/ui-load.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/services/ui-load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/l10n/de_DE.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/l10n/de_DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/l10n/en.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/l10n/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/l10n/it_IT.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/l10n/it_IT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app_calendar.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app_calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app_dashboard_v1.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app_dashboard_v1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app_dashboard_v2.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/app_dashboard_v2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/apps_contact.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/apps_contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/apps_note.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/apps_note.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/apps_weather.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/apps_weather.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/aside.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/aside.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/aside.music.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/aside.music.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/header.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/header.music.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/header.music.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/nav.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/page_footer.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/page_footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/settings.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/blocks/settings.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/docs.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/docs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_editor.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_editor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_elements.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_elements.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_fileupload.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_fileupload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_imagecrop.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_imagecrop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_select.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_select.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_slider.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_slider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_validation.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_validation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_wizard.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/form_wizard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_app.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_footer_fullwidth.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_footer_fullwidth.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_footer_mobile.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_footer_mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_fullwidth.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_fullwidth.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_mobile.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/layout_mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.detail.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.list.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.new.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/mail.new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/modal.form.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/modal.form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/modal.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.detail.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.genres.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.genres.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.home.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.mtv.detail.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.mtv.detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.mtv.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.mtv.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.player.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.playlist.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/music.playlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_404.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_forgotpwd.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_forgotpwd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_invoice.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_invoice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_lockme.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_lockme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_post.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_price.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_price.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_profile.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_search.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_signin.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_signin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_signup.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/page_signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_datatable.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_datatable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_footable.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_footable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_grid.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_static.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/table_static.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_bootstrap.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_buttons.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_chart.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_chart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_googlemap.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_googlemap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_grid.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_icons.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_icons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_jvectormap.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_jvectormap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_portlet.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_portlet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_sortable.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_sortable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_timeline.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_timeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_toaster.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_toaster.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_tree.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_widgets.html" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/tpl/ui_widgets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/angular/angular-ui-utils/ui-utils.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/angular/angular-ui-utils/ui-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/easypiechart/jquery.easy-pie-chart.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/easypiechart/jquery.easy-pie-chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.orderBars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.pie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.spline.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.spline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/charts/flot/jquery.flot.tooltip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/chosen/chosen.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/chosen/chosen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/chosen/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/chosen/chosen.jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/dataTables.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/dataTables.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/datatable.json" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/datatable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/datatables/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/footable/fonts/footable.svg" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/footable/fonts/footable.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/footable/footable.all.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/footable/footable.all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/footable/footable.core.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/footable/footable.core.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jquery-ui-1.10.3.custom.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jquery-ui-1.10.3.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jquery.ui.touch-punch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jvectormap/jquery-jvectormap.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jvectormap/jquery-jvectormap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jvectormap/jquery-jvectormap.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/jvectormap/jquery-jvectormap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/nestable/jquery.nestable.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/nestable/jquery.nestable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/nestable/nestable.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/nestable/nestable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/select2/select2-bootstrap.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/select2/select2-bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/select2/select2.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/select2/select2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/select2/select2.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/select2/select2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/slider/bootstrap-slider.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/slider/bootstrap-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/slider/slider.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/slider/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/slimscroll/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/slimscroll/jquery.slimscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/sortable/jquery.sortable.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/sortable/jquery.sortable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/spinner/jquery.bootstrap-touchspin.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/spinner/jquery.bootstrap-touchspin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/spinner/jquery.bootstrap-touchspin.min.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/spinner/jquery.bootstrap-touchspin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/wysiwyg/bootstrap-wysiwyg.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/wysiwyg/bootstrap-wysiwyg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/wysiwyg/jquery.hotkeys.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/jquery/wysiwyg/jquery.hotkeys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-bootstrap-nav-tree/abn_tree.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-bootstrap-nav-tree/abn_tree.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-bootstrap-nav-tree/abn_tree_directive.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-bootstrap-nav-tree/abn_tree_directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-slider/angular-slider.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-slider/angular-slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-ui-calendar/calendar.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/angular-ui-calendar/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/ng-grid/theme.css" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/vendor/modules/ng-grid/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/static/common.js" afterPath="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/static/common.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +311,107 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/signin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1273">
+              <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="163" column="21" lean-forward="false" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/static/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/static/common.js" />
+        <option value="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.js" />
+        <option value="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/signin.js" />
+        <option value="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/app.js" />
+        <option value="$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/index.jsp" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -21,6 +420,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Users\heckman\.m2\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -28,7 +443,7 @@
     <option name="height" value="754" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scratches" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -42,15 +457,320 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heckman-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/heckman-build/heckman-api/target/heckman-api.war" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,12 +784,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.install">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -95,6 +881,160 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -116,12 +1056,102 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="heckman-console" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -152,6 +1182,143 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="clean" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="install" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.41" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/heckman-build/heckman-api/target/heckman-api.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_heckman-console" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53264" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Maven.clean" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.install" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -164,43 +1331,50 @@
       <option name="presentableId" value="Default" />
       <updated>1497640764102</updated>
       <workItem from="1497640765674" duration="69000" />
+      <workItem from="1497641678730" duration="38000" />
+      <workItem from="1497641727219" duration="2593000" />
+      <workItem from="1497665226381" duration="557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69000" />
+    <option name="totallyTimeSpent" value="3257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.506734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4814815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,5 +1386,181 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/static/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3097">
+          <caret line="163" column="21" lean-forward="true" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/api/login">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/api/signup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="22" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/target/heckman-api/heckman-app/admin/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/static/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/controllers/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/heckman-app/admin/tpl/blocks/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="163" column="21" lean-forward="false" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heckman-build/heckman-api/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

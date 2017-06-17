@@ -65,7 +65,7 @@ app.controller('frameController', ['$scope', 'frameService', 'commonUtil', funct
         commonUtil.getUserInfo(function (error, data) {
             if (!error) {
                 $scope.userinfo = data;
-                console.log('==================================='+JSON.stringify($scope.userinfo));
+                console.log('================userinfo==================='+JSON.stringify($scope.userinfo));
             }
         });
     }

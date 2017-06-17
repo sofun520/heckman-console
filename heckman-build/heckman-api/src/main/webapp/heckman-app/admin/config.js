@@ -4,8 +4,8 @@
 
 var config = {
     urlConfig: {
-        rootUrl: 'http://localhost:9090/heckman-api/',
-        localUrl: 'http://localhost:9090/heckman-api/heckman-app/',
+        rootUrl: 'http://localhost:8080/',
+        localUrl: 'http://localhost:8080/heckman-app/',
         homeUrl: '#/app/permission'
     }
 };

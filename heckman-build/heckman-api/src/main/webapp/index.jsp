@@ -8,5 +8,8 @@
 </head>
 <body>
 
+<script type="text/javascript">
+    window.location.href="heckman-app";
+</script>
 </body>
 </html>

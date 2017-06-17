@@ -62,6 +62,7 @@ app
                     console.log(data);
                     if (data.code == 0) {
                         $translateCookieStorage.set('user', data.data);
+                        console.log(data.data);
                         location.href = '#/app/permission';
                     } else {
                         $scope.submiting = false;
